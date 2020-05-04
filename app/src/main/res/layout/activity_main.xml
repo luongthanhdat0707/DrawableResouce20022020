@@ -9,30 +9,54 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="50dp">
-        <ImageView
-            android:background="#F20"
-            android:src="@drawable/ic_facebook"
-            android:layout_width="50dp"
-            android:layout_height="50dp"/>
-        <View
-            android:background="#000000"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"/>
-        <Button
-            android:paddingLeft="5dp"
-            android:background="@android:color/transparent"
-            android:textAllCaps="false"
-            android:text="CONNECT WITH FACEBOOK"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"/>
-    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:background="@drawable/bg_button_fb"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp">-->
+<!--        <ImageView-->
+<!--            android:padding="15dp"-->
+<!--            android:src="@drawable/ic_facebook"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"/>-->
+<!--        <View-->
+<!--            android:background="#000000"-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <Button-->
+<!--            android:textColor="#FFFFFf"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:text="CONNECT WITH FACEBOOK"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"/>-->
+<!--    </LinearLayout>-->
 
-    <Button
-        android:layout_marginTop="10dp"
-        android:text="Shape drawable"
+<!--    <Button-->
+<!--        android:elevation="20dp"-->
+<!--        android:background="@drawable/bg_button_shape"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Shape drawable"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <Button-->
+<!--        android:background="@drawable/bg_button_state"-->
+<!--        android:text="State drawable"-->
+<!--        android:elevation="100dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:text="Android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="PHP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
